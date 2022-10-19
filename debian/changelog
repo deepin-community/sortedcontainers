@@ -1,0 +1,115 @@
+sortedcontainers (2.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Drop python2 support; Closes: #938515
+
+ -- Sandro Tosi <morph@debian.org>  Mon, 23 Dec 2019 12:40:04 -0500
+
+sortedcontainers (2.1.0-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Refresh the patch.
+  * New maintainer/uploader (Closes: #888218).
+  * Use debhelper-compat 12.
+  * Switch to pybuild.
+  * Wrap and sort debian/control.
+  * Use ${python:Provides} in the Python 2 package.
+  * Add Built-Using for the Sphinx documentation package.
+  * Use Python 3 Sphinx.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 25 Jun 2019 10:36:19 -0500
+
+sortedcontainers (2.0.4-1) unstable; urgency=medium
+
+  * New upstrem release
+  * debian/patches/0001-dont-breach-privacy-github-stars-counter-iframe.patch
+    - patch dropped, no longer required
+  * debian/copyright
+    - update upstream copyright years notice
+    - remove notice for docs/_themes/, directory removed upstream
+  * debian/patches/0001-privacy-breach.patch
+    - more privacy breaches to fix
+  * debian/control
+    - add pytest to b-d, needed by tests
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 07 Jun 2018 22:09:30 -0400
+
+sortedcontainers (1.5.9-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+
+  [ Sandro Tosi ]
+  * New upstrem release
+  * debian/copyright
+    - extend packaging copyright years
+  * debian/control
+    - bump Standards-Version to 4.1.4 (no changes needed)
+    - mark all packages Multi-Arch: foreign; patch by Helmut Grohne;
+      Closes: #895441
+  * debian/patches/0001-dont-breach-privacy-github-stars-counter-iframe.patch
+    - remove iframe showing the stars counter for this project on GitHub
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 21 Apr 2018 23:00:27 -0400
+
+sortedcontainers (1.5.7-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/copyright
+    - extend packaging copyright years
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 05 Jan 2017 14:42:14 -0500
+
+sortedcontainers (1.5.6-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/python-sortedcontainers-doc.doc-base
+    - add doc-base
+  * declare compat level 10
+
+ -- Sandro Tosi <morph@debian.org>  Tue, 13 Dec 2016 07:32:39 -0500
+
+sortedcontainers (1.5.3-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 02 Oct 2016 16:16:47 -0400
+
+sortedcontainers (1.5.3-1) experimental; urgency=medium
+
+  [ Sandro Tosi ]
+  * New upstream release
+  * debian/copyright
+    - update upstream copyright years
+    - extend packaging copyright years
+  * debian/control
+    - use Sphinx 1.4, needed for imgmath extension
+    - add texlive-latex-base to b-d, needed for imgmath extension
+    - bump Standards-Version to 3.9.8 (no changes needed)
+
+  [ Ondřej Nový ]
+  * Fixed VCS URL (https)
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 11 Jun 2016 18:24:28 +0100
+
+sortedcontainers (1.4.4-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control
+    - set Vcs-* fields
+  * debian/watch
+    - use releases on github to fetch upstream code
+  * debian/copyright
+    - update for new upstream code
+  * debian/{control, rules}
+    - run tests at build time
+  * Build and install documentation
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 10 Dec 2015 17:23:38 +0000
+
+sortedcontainers (0.9.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #790504)
+
+ -- Sandro Tosi <morph@debian.org>  Mon, 29 Jun 2015 18:06:03 -0400

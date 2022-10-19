@@ -1,0 +1,39 @@
+From: Sandro Tosi <morph@debian.org>
+Date: Thu, 7 Jun 2018 22:00:03 -0400
+Subject: Remove privacy-breaching images and analytics
+
+---
+ README.rst   | 6 ------
+ docs/conf.py | 4 ----
+ 2 files changed, 10 deletions(-)
+
+--- a/README.rst
++++ b/README.rst
+@@ -114,12 +114,6 @@
+ - Developed on Python 3.7
+ - Tested on CPython 2.7, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7 and PyPy, PyPy3
+ 
+-.. image:: https://api.travis-ci.org/grantjenks/python-sortedcontainers.svg?branch=master
+-   :target: http://www.grantjenks.com/docs/sortedcontainers/
+-
+-.. image:: https://ci.appveyor.com/api/projects/status/github/grantjenks/python-sortedcontainers?branch=master&svg=true
+-   :target: http://www.grantjenks.com/docs/sortedcontainers/
+-
+ Quickstart
+ ----------
+ 
+--- a/docs/conf.py
++++ b/docs/conf.py
+@@ -87,12 +87,8 @@
+     'logo': 'gj-logo.png',
+     'logo_name': True,
+     'logo_text_align': 'center',
+-    'analytics_id': 'UA-19364636-2',
+     'show_powered_by': False,
+     'show_related': True,
+-    'github_user': 'grantjenks',
+-    'github_repo': 'python-sortedcontainers',
+-    'github_type': 'star',
+ }
+ 
+ # Add any paths that contain custom static files (such as style sheets) here,

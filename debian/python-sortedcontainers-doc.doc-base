@@ -1,0 +1,14 @@
+Document: python-sortedcontainers-doc
+Title: psutil documentation
+Author: Grant Jenks
+Abstract: sorted container types: SortedList, SortedDict, and SortedSet
+ Python’s standard library is great until you need a sorted container type. Many
+ will attest that you can get really far without one, but the moment you really
+ need a sorted list, dict, or set, you’re faced with a dozen different
+ implementations, most using C-extensions without great documentation and
+ benchmarking.
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python-sortedcontainers/html/index.html
+Files: /usr/share/doc/python-sortedcontainers/html/*
